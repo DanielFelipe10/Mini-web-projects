@@ -1,0 +1,11 @@
+@media screen and (min-width: 600px) {
+    .container{
+        flex-direction: row;
+        width: 100vw;
+        height: 80vh;
+    }
+
+    .panel{
+        height: 100%;
+    }
+}

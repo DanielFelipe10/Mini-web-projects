@@ -7,7 +7,7 @@ panels.forEach(panel =>{ // Iterate through the list 'panels'
     });
 });
 
-function removeActiveClass() {
+function removeActiveClass() { // Iterate through the list 'panels' and remove 'active' if exists
     panels.forEach(panel => {
         panel.classList.remove('active');
     });
