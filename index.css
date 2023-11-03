@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: #121212;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    background-color: #202020;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #202020;
+}
