@@ -46,15 +46,25 @@ header h1{
 }
 
 .card{
-    background-color: #181818;
+    position: relative;
     width: 170px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin: 5px;
     border-radius: 5px;
-    transition: 0.4s ease-in;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.card img{
+    width: 10%;
+}
+
+.card:hover{
+    scale: 1.03;
 }
 
 footer{
@@ -64,4 +74,14 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+/*Media querie*/
+
+@media screen and (min-width: 600px) {
+    .card{
+        width: 250px;
+        margin: 10px;
+    }
 }
